@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 16px 'Abel', sans-serif; /*Montserrat*/
+    line-height: 3;
+    color: #f5f6f7;
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 28pt !important;
+    font-family: 'Oregano', cursive !important;
+    padding-top: 20pt;
+}
+
+h3{
+    font-size: 40pt !important;
+    font-family: 'Oregano', cursive !important;
+/*    font-family: 'Ubuntu', sans-serif !important;*/
+    padding-top: 30pt;
+    font-style: italic;
+}
+.p-a{
+    font-size: 13pt;
+    padding-top: 10pt;
+    color:#636363;
+    font-weight:bold;
+}
+.p-b{
+    font-size: 13pt;
+    padding-top: 10pt;
+    color:#e0edff;
+    font-weight:bold;
+}
+.p-c{
+    font-size: 13pt;
+    padding-top: 10pt;
+    color:#e0ffe6;
+    font-weight:bold;
+}
+.img{
+    border-radius: 40pt;
+}
+
+.space-add {
+    margin-top: 20px;
+}
+
+.space-close{
+    margin-top: -20px;
+}
+
+/*
+.margin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 2em;
+    font-family: 'Kotta One', serif;
+
+}
+*/
+/*
+margin h3 {
+    font-size: 3em; (各標題字)
+    font-family: 'Kotta One', serif !important;
+
+}
+*/
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 1.8em ; 
+    letter-spacing: 3px;
+}
+.navbar-nav  li{
+    font-family: 'Satisfy', cursive;
+}
+
+.navbar-nav  li a:hover {
+    color: #ff74c0 !important;
+    font-size: 1.8m !important; 
+}
+
+.navbar-brand {
+    font-size: 30pt !important; /* (200pt)*//*ＬＯＧＯ字*/
+    font-family: 'Satisfy', cursive;
+}
+
+
+.bg-1a {
+    background-color:  	#008080;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+
+.bg-1b {
+    background-color:  #ff74a4;
+    color: #fff;
+    padding-top: -60px ;
+}
+
+.up{
+    font-size: 40pt !important;
+    font-family: 'Oregano', cursive ;
+    padding-top: 0 !important;
+}
+.sub-title{
+    font-size: 22pt !important;
+    font-family: 'Oregano', cursive ;
+    padding-top: 0 !important;
+}
+.bg-2a {
+    background-color: #09389d;
+    color: #e0edff;
+/*    height: 600px;*/
+    padding-top: 100px;
+}
+.bg-2b {
+    background-color: #f7f1af;
+    color: #aaaa6b;
+/*    height: 600px;*/
+    padding-top: 100px;
+}
+.bg-3a {
+    background-color: #209d09;
+    color: #e0ffe6;
+    height: auto;
+    padding-top: 100px;
+}
+/*
+.service-info h3 {
+    margin-top: 35px;
+}
+*/
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.container-fluid-up {
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.container-fluid-leftright{
+    padding-left: 0;
+    padding-right: 0;
+}
+.container-bg{
+    color: #0d0d0d;
+}
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/*
+li.a{
+color:#09389d ;
+}
+*/
+.footer {
+    background-color: #09389d;
+    color: #e0edff;
+    position: absolute;
+}
+
+.social{
+    padding: 30px;
+}
+
+ul.icon_list{
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+ul.icon_list li{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+ul.icon_list li a{
+    display: inline-block;
+    color: #636363;
+    border: 1px solid #636363;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    transition: all 1s;
+}
+ul.icon_list li a:hover{
+    color: #ff74c0;
+    border-color:#ff74c0; 
+}
